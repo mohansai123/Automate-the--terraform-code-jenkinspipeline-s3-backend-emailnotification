@@ -5,10 +5,10 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         TF_region = 'ap-south-1'
-        TF_bucket = 'jenkins-s3-dynamo-bucket'
+        TF_bucket = 'automated-s3-backend'
         TF_VAR_key_name = 'public-cli-keypair'
         TF_VAR_instance_type = 't2.micro'
-        GITHUB_REPO_URL = 'https://github.com/mohansai123/Jenkins-Terraform-EC2-S3-Infrastructure.git'
+        GITHUB_REPO_URL = 'https://github.com/mohansai123/Automate-the--terraform-code-jenkinspipeline-s3-backend-emailnotification.git'
     }
 
     stages {
