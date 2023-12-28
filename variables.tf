@@ -1,6 +1,6 @@
 variable "ami" {
   description = "EC2 instance AMI ID"
-  default     = "ami-02a2af70a66af6dfb"
+  default     = "ami-03f4878755434977f"
 }
 
 variable "instance_type" {
@@ -38,7 +38,7 @@ variable "subnet_id" {
 variable "tags" {
   type    = map(string)
   default = {
-    Name        = "TF-Instance"
+    Name        = "Jenkins-Master"
     Environment = "Dev"
   }
 }
@@ -50,5 +50,5 @@ variable "region" {
 
 variable "s3_bucket" {
   type    = string
-  default = "jenkins-s3-dynamo-bucket"
+  default = "automated-s3-backend"
 }
