@@ -40,7 +40,7 @@ Before you get started, make sure you have the following prerequisites in place:
    **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Jenkins-Terraform-EC2-S3-Infrastructure.git
+   git clone https://github.com/mohansai123/Automate-the--terraform-code-jenkinspipeline-s3-backend-emailnotification.git
    cd Jenkins-Terraform-EC2-S3-Infrastructure
 
    1. Configure AWS Credentials:
