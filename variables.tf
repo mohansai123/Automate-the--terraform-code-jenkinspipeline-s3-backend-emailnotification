@@ -38,14 +38,6 @@ variable "subnet_id" {
 variable "tags" {
   type    = map(string)
   default = {
-    Name        = "Jenkins-Master"
-    Environment = "Dev"
-  }
-} 
-
-variable "tags" {
-  type    = map(string)
-  default = {
     Name        = "Jenkins-Slave"
     Environment = "Dev"
   }
