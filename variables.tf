@@ -35,14 +35,6 @@ variable "subnet_id" {
   default     = "subnet-0b4304641787d445a"  # Update with a valid subnet ID
 }
 
-variable "tags" {
-  type    = map(string)
-  default = {
-    Name        = "Jenkins-Slave"
-    Environment = "Dev"
-  }
-}
-
 variable "region" {
   type    = string
   default = "ap-south-1"
