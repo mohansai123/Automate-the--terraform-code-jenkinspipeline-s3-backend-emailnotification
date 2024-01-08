@@ -1,4 +1,4 @@
-module "jenkinsagent" {
+module "jenkins-master" {
   source = "./modules/ec2"
   ami = "ami-03f4878755434977f"
   subnet_id = "subnet-0b4304641787d445a"
